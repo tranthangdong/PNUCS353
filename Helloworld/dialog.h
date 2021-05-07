@@ -20,6 +20,12 @@ private slots:
 
     void on_pButton_Hello_clicked();
 
+    void on_pushButton1_clicked();
+
+    void on_pButton_Luu_clicked();
+
+    void on_pButton_Xoa_clicked();
+
 private:
     Ui::Dialog *ui;
 };
