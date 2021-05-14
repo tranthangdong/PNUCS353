@@ -26,6 +26,14 @@ private slots:
 
     void on_pButton_Xoa_clicked();
 
+    void on_pButton_Test_clicked();
+
+    void on_pButton_TaiHinh_clicked();
+
+    void initGiaoDien();
+
+    void on_pButton_QString_clicked();
+
 private:
     Ui::Dialog *ui;
 };
