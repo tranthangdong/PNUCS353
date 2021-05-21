@@ -21,14 +21,14 @@ Widgets: Thành phần mà chúng ta sử dụng để thiết kế GUI  (giao d
 
 + Lớp QString
 
-1. Khởi tạo chuỗi: String str1, str2...	; 
-2. append và prepend
-3. toUpper và toLower
-4. các hàm lấy độ dài: size(), count() và length()
-5. các hàm lấy chuỗi con: left(số_ký_tự), mid(vị_trí_bắt_đầu, số_ký_tự) và right(số_ký_tự)
-6. duyệt chuỗi tìm thông tin
-7. so sánh chuỗi QString::compare() 
-8. chuyển đổi kiểu dữ liệu:  toInt(), toFloat(), toLong()
+1. Khởi tạo chuỗi: String str1, str2...	;
+2. append và prepend.
+3. toUpper và toLower..
+4. các hàm lấy độ dài: size(), count() và length().
+5. các hàm lấy chuỗi con: left(số_ký_tự), mid(vị_trí_bắt_đầu, số_ký_tự) và right(số_ký_tự).
+6. duyệt chuỗi tìm thông tin.
+7. so sánh chuỗi QString::compare()
+8. chuyển đổi kiểu dữ liệu:  toInt(), toFloat(), toLong(), setNum()
 9. kiểm tra dạng ký tự: isDigit(), isLetter(), isSpace()
 10. edit chuỗi: remove, replace, clear
 
