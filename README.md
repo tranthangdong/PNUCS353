@@ -33,9 +33,6 @@ Widgets: Thành phần mà chúng ta sử dụng để thiết kế GUI  (giao d
 10. edit chuỗi: remove, replace, clear
 
 
-
-
-
 Thao tác cần làm khi load một widget ra giao diện layout
 1. Đặt tên cho widget (pushButton_Exit, pushButton_Ok, label_HoTen, label_CoQuan....)
 2. Thiết lập text cho widget
@@ -47,5 +44,8 @@ Viết chức năng cho listWidget
 Load image và GraphicsView và Button
 
 
-
+Buổi 5:
++ Thiết kế giao diện điều hòa
++ Thiết kế nút nguồn
++ Thiết kế nút tăng giảm nhiệt độ
 

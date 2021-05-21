@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QImage>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,12 +17,17 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_Power_clicked();
     void init_windows();
+
+    void setMode(int iMode);
+
+    void on_pushButton_Power_clicked();
 
     void on_pushButtoneTempCong_clicked();
 
     void on_pushButton_TempTru_clicked();
+
+    void on_pushButton_Mode_clicked();
 
 private:
     Ui::MainWindow *ui;
@@ -29,6 +35,7 @@ private:
     int iTemp;
     const int iTempMin=18;
     const int iTempMax=30;
+    int iMode;
 
 };
 #endif // MAINWINDOW_H

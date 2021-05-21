@@ -19,7 +19,8 @@ Dialog::~Dialog()
 void Dialog::initGiaoDien()
 {
     //Load hình lên button
-    QImage imgLuu("D:/Repository/DEV-QT/PNUCS353/Helloworld/btnSave.jpg");
+    QImage imgLuu("D:/Repository/DEV-QT/PNUCS353/Helloworld/mode_quat_off.png");
+    //QImage imgLuu("D:/Repository/DEV-QT/PCS353/GUIDieuHoa/mode_quat_off.png");
     QIcon ButtonIcon(QPixmap::fromImage(imgLuu));
     ui->pButton_Luu->setIcon(ButtonIcon);
     ui->pButton_Luu->setIconSize(QPixmap::fromImage(imgLuu).rect().size());
@@ -132,7 +133,7 @@ void Dialog::on_pButton_TaiHinh_clicked()
     QString str1="123";
 
     //Load hình lên GraphicsViewer
-    QImage img("D:/Repository/DEV-QT/PNUCS353/Helloworld/PNU.png");
+    //QImage img("D:/Repository/DEV-QT/PNUCS353/Helloworld/PNU.png");
     //QPixmap pixmap("D:/Repository/DEV-QT/PNUCS353/Helloworld/PNU.png");
     //QGraphicsScene* scene = new QGraphicsScene();
     //QGraphicsView* view = new QGraphicsView(scene);
@@ -140,7 +141,8 @@ void Dialog::on_pButton_TaiHinh_clicked()
     //scene->addItem(item);
 
     //Load hình lên Label
-    ui->label_Hinh->setPixmap(QPixmap::fromImage(img));
+    QImage imgLuu("D:/Repository/DEV-QT/PNUCS353/Helloworld/mode_quat_off.png");
+    ui->label_Hinh->setPixmap(QPixmap::fromImage(imgLuu));
 
 }
 
