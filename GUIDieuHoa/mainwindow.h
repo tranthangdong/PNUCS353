@@ -23,6 +23,8 @@ private slots:
 
     void readConfig();
 
+    void writeConfig();
+
     void on_pushButton_Power_clicked();
 
     void on_pushButtoneTempCong_clicked();
@@ -32,6 +34,8 @@ private slots:
     void on_pushButton_Mode_clicked();
 
     void on_pushButton_Read_clicked();
+
+    void on_pushButton_Write_clicked();
 
 private:
     Ui::MainWindow *ui;
