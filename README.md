@@ -49,3 +49,8 @@ Buổi 5:
 + Thiết kế nút nguồn
 + Thiết kế nút tăng giảm nhiệt độ
 
+Buổi 6:
++ Đọc files
++ Sử dụng thư viện QFile và thư viện QTextStream
+
+

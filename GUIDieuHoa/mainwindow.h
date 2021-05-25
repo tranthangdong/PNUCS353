@@ -21,6 +21,8 @@ private slots:
 
     void setMode(int iMode);
 
+    void readConfig();
+
     void on_pushButton_Power_clicked();
 
     void on_pushButtoneTempCong_clicked();
@@ -28,6 +30,8 @@ private slots:
     void on_pushButton_TempTru_clicked();
 
     void on_pushButton_Mode_clicked();
+
+    void on_pushButton_Read_clicked();
 
 private:
     Ui::MainWindow *ui;
